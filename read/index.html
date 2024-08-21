@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Kartzulia</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="main.js"></script>
+</head>
+<div class="main_page">
+
+<header>
+    <div class="header1">
+        <div class="logo">Kartzulia</div>
+        <p id="motto">"Cu o carte nu se face bibliotecă !" </p>
+       
+    </div>
+    
+
+</header>
+<body>
+    <div class="search_bar">
+        <label for="search" id="mci">Start searching, start reading</label>
+        <input type="text" id="find"   onkeyup="search()" placeholder="Caută cartea preferată">
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <main> 
+       
+        <div class="books_display">
+            <div class="grow">
+                <img src="Carti/Allan Quatermain/haggard-allan-quatermain books picture.jpg" width="260" height="390" alt="Allan Quatermain adventures">
+                <p class="name">Allan Quatermain </p>
+                <p>by H.Rider Haggard</p>
+                <a href="Carti/Allan Quatermain/haggard-allan-quatermain.epub" download>Descarcă cartea - epub 5.00$ <del>7.00$</del></a>
+            </div>
+            <div class="grow">
+                <img src="Carti/Arnold/arnold.jpeg" alt="Fii util. Lifetime Wisdom" width="260" height="390">
+                <p class="name">Fii util </p>
+                <p>by Arnold Scwarzenegger</p>
+                <a href="Carti/Arnold/Fii util -7 reguli de viata - Arnold Schwarzanegger.pdf" download="">Descarcă cartea - pdf</a>
+            </div>
+            <div class="grow">
+                <img src="Carti/Fabrica de ciocolata/fabrica de ciocolata.jpg" class="fabrica" alt="Fabrica de ciocolată" width="260" height="390">
+                <p class="name">Fabrica de ciocolată </p>
+                <p>by Roald Dahl</p>
+                <a href="Carti/Fabrica de ciocolata/Charlie si fabrica de ciocolata (Roald Dahl) (Z-Library).pdf" download>Descarcă cartea - pdf</a>
+            </div>
+            <div class="grow">
+                <img src="Carti/Razboiul nu are chip de femeie/razboiul  nu are chip e femeie.webp" width="260" height="390" alt="Razboiul nu are chip de femeie">
+                <p class="name">Războiul nu are chip de femeie </p>
+                <p>by Aleksievici Svetlana</p>
+                <a href="Carti/Razboiul nu are chip de femeie/Războiul_nu_are_chip_de_femeie_Aleksievici,_Svetlana.pdf" download>Descarcă cartea - pdf</a>
+            </div>
+            
+            <div class="grow">
+                <img src="Carti/Vulturul a aterizat/EAGLE.jpeg" alt="Vulturul a aterizat" width="260" height="390">
+                <p class="name">Vulturul a aterizat </p>
+                <p>by Jack Higgins </p>
+                <a href="Carti/Vulturul a aterizat/Jack_Higgins_Vulturul_a_aterizat_1_0_˙{AcţiuneRăzboi}.pdf" download>Descarcă cartea - pdf</a>
+            </div>
+            <div class="grow">
+                <img src="Carti/Pinochio/PInochio.jpeg" alt="Pinochio" width="260" height="390">
+                <p class="name">Pinochio</p>
+                <p>by Carlo Collodi</p>
+                <a href="Carti/Pinochio/Carlo Collodi - Pinocchio.pdf" download>Descarcă cartea - pdf</a>
+            </div>
+            <div class="grow">
+                <img src="Carti/3 intro barca/3 intro barca.jpg" alt="Trei într-o barcă" width="260" height="390">
+                <p class="name">Trei într-o barcă</p>
+                <p>by Jerome K. Jerome</p>
+                <a href="Carti/3 intro barca/descarca-jerome-k-jerome-trei-intr-o-barca.pdf" download>Descarcă cartea - pdf</a>
+            </div>
+            <div class="grow">
+                <img src="Carti/aventura - Autostrada Lincoln/towles-autostrada-lincoln-thumbnail.jpg" alt="Autostrada Lincoln" width="260" height="390">
+                <p class="name">Autostrada Lincoln</p>
+                <p>by Amor Towles</p>
+                <a href="Carti/aventura - Autostrada Lincoln/Amor_Towles_-_Autostrada_Lincoln.pdf" download>Descarcă cartea - pdf</a>
+            </div>
+            <div class="grow">
+                <img src="Carti/aventura - Lungul zbor spre casa/hlad-lungul-zbor-spre-casa-thumbnail.jpg" alt="Lungul zbor spre casă" width="260" height="390">
+                <p class="name">Lungul zbor spre casă</p>
+                <p>by Alan Hlad</p>
+                <a href="Carti/aventura - Lungul zbor spre casa/Alan_Hlad_-_Lungul_zbor_spre_casa.pdf" download>Descarcă cartea - pdf</a>
+            </div>
+            <div class="grow">
+                <img src="Carti/aventura - orfani de brooklyn/lethem-orfani-in-brooklyn-thumbnail.jpg" alt="Orfani de Brooklyn" width="260" height="390">
+                <p class="name">Orfani de Brooklyn</p>
+                <p>by Jonatham Lethem</p>
+                <a href="Carti/aventura - orfani de brooklyn/Jonathan_Lethem-Orfani_in_Brooklyn.pdf" download>Descarcă cartea - pdf</a>
+            </div>
+            <div class="grow">
+                <img src="Carti/Cain si Abel/Jeffrey Archer - Cain Si Abel.jpeg" alt="Cain și Abel" width="260" height="390">
+                <p class="name">Cain și Abel</p>
+                <p>by Jeffrey Archer</p>
+                <a href="Carti/Cain si Abel/Jeffrey Archer - Cain Si Abel.pdf" download>Descarcă cartea - pdf</a>
+            </div>
+            <div class="grow">
+                <img src="Carti/cine mi-a luat casul/1526615908{__}johnson_spencer-cine_mi-a_luat_cascavalul.jpg" alt="Cine mi-a luat cașcavalul ?" width="260" height="390">
+                <p class="name">Cine mi-a luat cașcavalul ?</p>
+                <p>by Johnson Spencer</p>
+                <a href="Carti/cine mi-a luat casul/descarca-spencer-johnson-cine-mi-a-luat-cascavalul.pdf" download>Descarcă cartea - pdf</a>
+            </div>
+            <div class="grow">
+                <img src="Carti/Enigma Otiliei/Otilia.jpg" alt="Enigma Otiliei" width="260" height="390">
+                <p class="name">Enigma Otiliei</p>
+                <p>by George Călinescu</p>
+                <a href="Carti/Enigma Otiliei/descarca-george-calinescu-enigma-otiliei.pdf" download>Descarcă cartea - pdf</a>
+            </div><div class="grow">
+                <img src="Carti/fantezie - enigma camerei 622/dicker-enigma-camerei-622-thumbnail.webp" alt="Enigma camerei 622" width="260" height="390">
+                <p class="name">Enigma camerei 622</p>
+                <p>by Joel Dicker</p>
+                <a href="Carti/fantezie - enigma camerei 622/enigma-camerei-622-joel-dicker.pdf" download>Descarcă cartea - pdf</a>
+            </div><div class="grow">
+                <img src="Carti/shogun/shogun.jpg" alt="Shogun" width="260" height="390">
+                <p class="name">Shogun</p>
+                <p>by James Clavell</p>
+                <a href="Carti/shogun/James_Clavell-Shogun.pdf" download>Descarcă cartea - pdf</a>
+            </div><div class="grow">
+                <img src="Carti/soarecele si pisica/arlidge-de-a-soarecele-si-pisica-thumbnail.jpg" alt="De-a șoarecele și pisica" width="260" height="390">
+                <p class="name">De-a șoarecele și pisica</p>
+                <p>by M.J. Arlidge</p>
+                <a href="Carti/soarecele si pisica/M.J._Arlidge_-_De-a_soarecele_si_pisica.pdf_·_versiunea_1.pdf" download>Descarcă cartea - pdf</a>
+            </div><div class="grow">
+                <img src="Carti/supa de pui/1479930090{__}supa-de-pui-pentru-suflet-de-mama-povesti-care-deschid-inima-si-reaprind-spiritul-mamelor.jpg" alt="Supă de pui pentru suflet de mamă" width="260" height="390">
+                <p class="name">Supă de pui pentru ...</p>
+                <p>by Jennifer Read Hawthorne...</p>
+                <a href="Carti/supa de pui/descarca-canfield-hansen-hawthorne-shimoff-supa-de-pui-pentru-suflet-de-mama.pdf" download>Descarcă cartea - pdf</a>
+            </div><div class="grow">
+                <img src="Carti/ultimul zbor Julie Clark/ultimul zbor.jpg" alt="Ultimul zbor" width="260" height="390">
+                <p class="name">Ultimul zbor</p>
+                <p>by Julie Clark</p>
+                <a href="Carti/ultimul zbor Julie Clark/Julie_Clark_-_Ultimul_zbor.pdf" download>Descarcă cartea - pdf</a>
+            </div><div class="grow">
+                <img src="Carti/ura dragoste si prietenie/1458658102QptuiJ311L{__}ura-prietenie-dragoste-casatorie_1_fullsize.jpg" alt="Ură,prietenie,dragoste,căsătorie" width="260" height="390">
+                <p class="name">Ură,prietenie,dragoste,căsătorie</p>
+                <p>by Alice Munro</p>
+                <a href="Carti/ura dragoste si prietenie/alice munro.pdf" download>Descarcă cartea - pdf</a>
+            </div>
+            
+          
+
+        </div>
+    </main>
+    <template id="template_search">
+
+    </template>
+    
+    
+</body>
+
+<footer id="footer">
+    </footer>
+</div>
+</html>

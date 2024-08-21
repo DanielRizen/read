@@ -1,0 +1,162 @@
+
+html {
+    box-sizing: border-box;
+    background-color: rgb(53, 120, 126);
+    background: url(https://unsplash.com/photos/background-pattern-bEqx9QlASBY);
+    grid-template-columns: repeat(autofit,minmax(300px,1fr));
+    background-image:url("Imagini site/bk2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background: rgb(63,94,251);
+    background: linear-gradient(45deg, rgb(64, 93, 196) 0%, rgb(115, 23, 42) 100%);
+
+}
+
+
+.logo {
+    background: #0b8be1;
+    background: radial-gradient(ellipse farthest-corner at center center, #eaeced 0%, #231421 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 80px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+header #motto {
+    font-size: 34px;
+    font-style: italic;
+    margin-top: -8px;
+    color: rgb(5, 5, 5);
+    margin-top:;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap:nowrap;
+
+    
+}
+
+/* container pentru logo,moto si genuri */
+header {
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 170px;
+    margin: 20px auto;
+}
+    
+
+header .right_menu {
+
+    font-size: 28px;
+    font-family: Tahoma,sans-serif;
+    align-items: center;
+    row-gap: 5px;
+    border-radius: 5%;
+    background-color: black;
+    color: rgb(220, 20, 20);
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+.books_display {
+    
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 50px;
+    justify-content: center;
+    margin: 30px auto;
+    
+}
+
+.books_display p {
+
+    margin-top: 14px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+
+.grow img {
+
+    border-radius: 2%;
+    border: 4px solid rgb(66, 7, 72);
+    transition: 0.8s ease;
+}
+
+
+.grow img:hover{
+
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+     transform: scale(1.1);
+     transition: 0.8s ease;
+     border-radius: 2%;
+     border: 10px solid rgb(7, 7, 7);
+}
+
+.grow > a {
+
+    text-decoration: none;
+    color: white;
+    background-color: #231421;
+    border-radius: 5%;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.grow > a:hover{
+
+    color:rgb(15, 201, 27);
+}
+
+.search_bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+
+
+
+#mci {
+    font-size: 28px;
+    color: antiquewhite;
+    background-color: #231421;
+    border-radius: 10%;
+    padding: 4px;
+}
+
+#find {
+   padding: 9px;
+   width: 280px;
+   border: 4px solid magenta;
+}
+
+::placeholder {
+    color: rgb(67, 5, 55);
+    font-size: 16px;
+    
+}
+
+
+
+
+
+
+
